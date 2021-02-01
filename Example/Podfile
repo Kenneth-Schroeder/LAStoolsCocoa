@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LASToolsCocoa_Example' do
+  pod 'LASToolsCocoa', :path => '../'
+
+  target 'LASToolsCocoa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
